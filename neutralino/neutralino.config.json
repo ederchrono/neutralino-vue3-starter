@@ -12,7 +12,7 @@
   ],
   "modes": {
     "window": {
-      "title": "tortilla-machine",
+      "title": "neutralino-vue-starter",
       "width": 800,
       "height": 500,
       "minWidth": 400,
@@ -21,7 +21,7 @@
     }
   },
   "cli": {
-    "binaryName": "tortilla-machine",
+    "binaryName": "neutralino-vue-starter",
     "resourcesPath": "/vue/dist/",
     "extensionsPath": "/extensions/",
     "clientLibrary": "/vue/public/neutralino.js",

@@ -1,7 +1,7 @@
 {
-  "name": "tortilla-machine",
+  "name": "Neutralino-vue-starter",
   "version": "1.0.0",
-  "description": "A tool to find opportunities in your codebase to create code generators",
+  "description": "Starter template for Neutralino.js projects with Vue3 and Vite",
   "scripts": {
     "setup": "cd neutralino && neu update",
     "install:all": "pnpm recursive install && pnpm run setup",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ederchrono/tortilla-machine.git"
+    "url": "git+https://github.com/ederchrono/neutralino-vue-starter.git"
   },
   "keywords": [
     "Generators",
@@ -21,9 +21,9 @@
   "author": "Eder Díaz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ederchrono/tortilla-machine/issues"
+    "url": "https://github.com/ederchrono/neutralino-vue-starter/issues"
   },
-  "homepage": "https://github.com/ederchrono/tortilla-machine#readme",
+  "homepage": "https://github.com/ederchrono/neutralino-vue-starter#readme",
   "devDependencies": {
     "@neutralinojs/neu": "^9.3.1"
   }
