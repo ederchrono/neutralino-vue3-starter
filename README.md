@@ -1,17 +1,39 @@
-# Tortilla machine
+# Neutralino + Vue3 starter
 
-> We're not making enchiladas... but we can automate the tortillas!
+Starter template for Neutralino.js projects with Vue3 and Vite following the [Using Frontend libraries](https://neutralino.js.org/docs/how-to/use-a-frontend-library) guide.
 
-A tool to find opportunities in your codebase to create code generators.
+It uses PNPM to manage dependencies and run scripts.
 
-## How it works?
+## Usage
 
-Tortilla machine reads your codebase files, ignoring your files in the .gitignore file.
+Install dependencies:
 
-It then finds similarities between files and creates a graph of the codebase.
+```bash
+pnpm install
+```
 
-At the end of the process, it creates a list of possible templates that you can choose and bundle into one or more generators.
+You might need to install the Vue project dependencies too:
 
-You can then tweak the templates by adding a prompt that asks the user for variables that you can use to change the location and contents of the templates.
+```bash
+cd neutralino/vue && pnpm install
+```
 
-When you finish, you should have a collection of generators that you can run either with tortilla or on your CLI using [hygen](https://www.hygen.io/).
+### Running the dev server
+
+You need to run first the Vue+vite dev server:
+
+```bash
+pnpm run dev
+```
+
+You can develop the client side part just like that, but when you want to interact with Neutralino and the nativa APIs, you need to run the desktop app server:
+
+```bash
+pnpm run desktop
+```
+
+### Building
+
+```bash
+pnpm run build
+```
