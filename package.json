@@ -1,0 +1,28 @@
+{
+  "name": "tortilla-machine",
+  "version": "1.0.0",
+  "description": "A tool to find opportunities in your codebase to create code generators",
+  "scripts": {
+    "dev": "cd neutralino/vue && pnpm run dev",
+    "desktop": "cd neutralino && neu run --frontend-lib-dev -- --window-enable-inspector",
+    "build-vue": "cd neutralino/vue && pnpm run build",
+    "build": "pnpm run build-vue && cd neutralino && neu build --release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederchrono/tortilla-machine.git"
+  },
+  "keywords": [
+    "Generators",
+    "Templates"
+  ],
+  "author": "Eder Díaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ederchrono/tortilla-machine/issues"
+  },
+  "homepage": "https://github.com/ederchrono/tortilla-machine#readme",
+  "devDependencies": {
+    "@neutralinojs/neu": "^9.3.1"
+  }
+}
