@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A tool to find opportunities in your codebase to create code generators",
   "scripts": {
+    "setup": "cd neutralino && neu update",
+    "install:all": "pnpm recursive install && pnpm run setup",
     "dev": "cd neutralino/vue && pnpm run dev",
     "desktop": "cd neutralino && neu run --frontend-lib-dev -- --window-enable-inspector",
     "build-vue": "cd neutralino/vue && pnpm run build",

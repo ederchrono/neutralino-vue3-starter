@@ -4,35 +4,37 @@ Starter template for Neutralino.js projects with Vue3 and Vite following the [Us
 
 It uses PNPM to manage dependencies and run scripts.
 
-## Usage
+## Setup
 
-Install dependencies:
+If you haven't already, install globally Neutralino's neu CLI
 
 ```bash
-pnpm install
+install -g @neutralinojs/neu
 ```
 
-You might need to install the Vue project dependencies too:
+Then install Vue dependencies and setup the Neutralino app:
 
 ```bash
-cd neutralino/vue && pnpm install
+pnpm run install:all
 ```
 
 ### Running the dev server
 
-You need to run first the Vue+vite dev server:
+First you always need to run the Vue + vite dev server:
 
 ```bash
 pnpm run dev
 ```
 
-You can develop the client side part just like that, but when you want to interact with Neutralino and the nativa APIs, you need to run the desktop app server:
+You can develop the client side part by just running this command and opening the browser on the indicated URL, but when you want to interact with Neutralino and the native APIs, you need to run the desktop app server on other terminal:
 
 ```bash
 pnpm run desktop
 ```
 
 ### Building
+
+The following command will build the Vue app and then bundle it up with Neutralino:
 
 ```bash
 pnpm run build
