@@ -9,7 +9,7 @@ It uses PNPM to manage dependencies and run scripts.
 If you haven't already, install globally Neutralino's neu CLI
 
 ```bash
-install -g @neutralinojs/neu
+pnpm install -g @neutralinojs/neu
 ```
 
 Then install Vue dependencies and setup the Neutralino app:
